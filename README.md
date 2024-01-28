@@ -43,6 +43,8 @@ then you can access the internal server via external.ip.com !
 
 ## How it works
 
+![Diagram](diagram.svg)
+
 1. Receiving HTTP Requests: The process begins with the external server receiving HTTP requests from clients. This server acts as the initial contact point for incoming traffic.
 
 2. Queueing Requests: These requests are then queued in a specialized system. The queue serves as a buffer, managing the flow of requests to ensure they are handled efficiently.
